@@ -19,28 +19,28 @@ const Navbar = () => {
   <NavigationMenuItem>
     <Link href="/docs" legacyBehavior passHref>
       <NavigationMenuLink className={navigationMenuTriggerStyle()}>
-        Documentation
+        Home
       </NavigationMenuLink>
     </Link>
   </NavigationMenuItem>
   <NavigationMenuItem>
     <Link href="/docs" legacyBehavior passHref>
       <NavigationMenuLink className={navigationMenuTriggerStyle()}>
-        Documentation
+        Blogs
       </NavigationMenuLink>
     </Link>
   </NavigationMenuItem>
   <NavigationMenuItem>
     <Link href="/docs" legacyBehavior passHref>
       <NavigationMenuLink className={navigationMenuTriggerStyle()}>
-        Documentation
+        About Us
       </NavigationMenuLink>
     </Link>
   </NavigationMenuItem>
   <NavigationMenuItem>
     <Link href="/docs" legacyBehavior passHref>
       <NavigationMenuLink className={navigationMenuTriggerStyle()}>
-        Documentation
+        Contact
       </NavigationMenuLink>
     </Link>
   </NavigationMenuItem>
