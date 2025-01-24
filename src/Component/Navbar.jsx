@@ -17,7 +17,7 @@ const Navbar = () => {
     <NavigationMenu>
   <NavigationMenuList>
   <NavigationMenuItem>
-    <Link href="/docs" legacyBehavior passHref>
+    <Link className="btn border-r-2" href="/docs" legacyBehavior passHref>
       <NavigationMenuLink className={navigationMenuTriggerStyle()}>
         Home
       </NavigationMenuLink>
@@ -41,6 +41,20 @@ const Navbar = () => {
     <Link href="/docs" legacyBehavior passHref>
       <NavigationMenuLink className={navigationMenuTriggerStyle()}>
         Contact
+      </NavigationMenuLink>
+    </Link>
+  </NavigationMenuItem>
+  <NavigationMenuItem>
+    <Link href="/api/auth/login" legacyBehavior passHref>
+      <NavigationMenuLink className={navigationMenuTriggerStyle()}>
+        Login
+      </NavigationMenuLink>
+    </Link>
+  </NavigationMenuItem>
+  <NavigationMenuItem>
+    <Link href="/api/auth/register" legacyBehavior passHref>
+      <NavigationMenuLink className={navigationMenuTriggerStyle()}>
+        SignIn
       </NavigationMenuLink>
     </Link>
   </NavigationMenuItem>
